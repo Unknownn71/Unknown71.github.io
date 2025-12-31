@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Amanah Insurance | Taxi & Commercial Insurance</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0a3d62, #1e90ff);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        nav {
+            background: #0a3d62;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 60px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 30px;
+            color: #0a3d62;
+        }
+
+        .about {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            align-items: center;
+        }
+
+        .about img {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 10px;
+        }
+
+        .about-text {
+            flex: 1;
+            font-size: 18px;
+            line-height: 1.7;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .card h3 {
+            color: #1e90ff;
+            margin-bottom: 15px;
+        }
+
+        .price {
+            font-size: 32px;
+            color: #0a3d62;
+            margin: 20px 0;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #1e90ff;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background: #0a3d62;
+        }
+
+        .contact {
+            background: #0a3d62;
+            color: white;
+            text-align: center;
+        }
+
+        .contact p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .social a {
+            margin: 0 10px;
+            color: white;
+            font-size: 18px;
+            text-decoration: none;
+        }
+
+        footer {
+            background: #062c43;
+            color: #ccc;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Amanah Insurance</h1>
+    <p>Your trusted partner for taxi, commercial, and vehicle insurance.
+       A new insurance company built on trust, transparency, and protection.</p>
+</header>
+
+<nav>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#plans">Plans</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2 class="section-title">About Amanah Insurance</h2>
+    <div class="about">
+        <img src="https://images.unsplash.com/photo-1549921296-3fd62c38cddc" alt="Taxi Insurance">
+        <div class="about-text">
+            <p>
+                Amanah Insurance is a new and growing insurance company created to support
+                taxi drivers and commercial vehicle owners. We understand the challenges
+                drivers face every day on the road, and our mission is to protect you,
+                your vehicle, and your income.
+            </p>
+            <p>
+                As a new company, we are building our future on trust, honesty, and fast service.
+                We hope taxi drivers will give us their confidence and work with us for the
+                best results. Your safety and satisfaction are our top priorities.
+            </p>
+            <p>
+                With Amanah Insurance, you are not just a policy number — you are a partner.
+                Together, we grow stronger.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="services">
+    <h2 class="section-title">Our Insurance Services</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Taxi Vehicle Insurance</h3>
+            <p>Full coverage for taxi drivers including accidents, damage, fire, and theft.</p>
+        </div>
+        <div class="card">
+            <h3>Third-Party Liability</h3>
+            <p>Protection against damages or injuries caused to passengers or other vehicles.</p>
+        </div>
+        <div class="card">
+            <h3>Driver Personal Accident</h3>
+            <p>Financial support for drivers in case of injury or disability.</p>
+        </div>
+        <div class="card">
+            <h3>Roadside Assistance</h3>
+            <p>24/7 help when your vehicle breaks down on the road.</p>
+        </div>
+    </div>
+</section>
+
+<section id="plans">
+    <h2 class="section-title">Subscription Plans</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Monthly Taxi Plan</h3>
+            <p>Affordable monthly protection for taxi drivers.</p>
+            <div class="price">$45 / Month</div>
+            <a href="#" class="btn">Subscribe Now</a>
+        </div>
+
+        <div class="card">
+            <h3>Yearly Taxi Plan</h3>
+            <p>Save more with our yearly subscription.</p>
+            <div class="price">$500 / Year</div>
+            <a href="#" class="btn">Subscribe Now</a>
+        </div>
+
+        <div class="card">
+            <h3>Fleet & Commercial Plan</h3>
+            <p>Custom insurance solutions for fleets and companies.</p>
+            <div class="price">Custom Pricing</div>
+            <a href="#" class="btn">Contact Us</a>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2 class="section-title" style="color:white;">Contact & Support</h2>
+    <p>📞 WhatsApp Support: +999 123 456 789</p>
+    <p>📧 Email: support@amanahinsurance.com</p>
+    <p>📍 Address: Amanah Insurance, Main Business Street</p>
+
+    <div class="social">
+        <p>Follow us on:</p>
+        <a href="#">Instagram: @AmanahInsurance</a> |
+        <a href="#">Facebook: Amanah Insurance</a> |
+        <a href="#">Twitter/X: @AmanahInsure</a>
+    </div>
+</section>
+
+<footer>
+    © 2025 Amanah Insurance. All rights reserved.  
+    This is a sample/demo insurance website.
+</footer>
+
+</body>
+</html>
